@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background: rgb(31,34,53);
+}
+
+#brand-logo{
+    height: auto;
+    width: 100px;
+}
+
+#nav{
+    display: flex;
+    list-style: none;
+    padding-left: 80%;
+    padding-top: 40px;
+}
+
+#nav li a{
+    text-decoration: none;
+    text-align: center;
+    margin: 40px;
+    color: white;
+}
+
+#about{
+    background: rgb(36,38,53);
+}
+
+#hd1{
+    text-align: center;
+    color: white;
+}
+
+.abt1{
+    display: flex;
+
+}
+
+#intro{
+    padding-top: 20%;
+    color: white;
+}
+
+.abt2{
+    display: flex;
+}
+
+#intro2{
+    padding-top: 5%;
+    color: white;
+
+}
+
+#hed4{
+    text-align: center;
+    color: white;
+}
+
+#vid{
+    justify-content: center;
+}
+
+#hed3{
+    text-align: center;
+    color: white;
+}
+
+#hed2{
+    color: white;
+    text-align: center;
+}
+
+#intro3{
+    display: flex;
+    color: white;
+}
+
+#img{
+    padding-left: 20%;
+}

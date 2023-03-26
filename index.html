@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML-Project</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Portfolio</title>
   </head>
   <body>
     <header>
+      <img
+        src="/images/download (1).png"
+        alt="portfolio logo"
+        id="brand-logo"
+      />
       <nav>
-        <img src="/images/download (1).png" alt="portfolio logo" id="brand-logo">
-        <ul>
+        <ul id="nav">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
@@ -22,61 +27,79 @@
 
     <main>
       <section id="about">
-        <h2>About</h2>
-        <p>
-          My name is Peter Akinlosotu and I’ve been crazy about programming. I
-          continue to learn and improve on myself. Am a very hard working
-          student, very organized with a sound communication skill which allows
-          me to communicate properly among my peers.
-        </p>
+        <h1 id="hd1">About</h1>
+        <div class="abt1">
+          <div id="intro">
+            <p>
+              My name is Peter Akinlosotu and I’ve been crazy about programming.
+              I continue to learn and improve on myself. Am a very hard working
+              student, very organized with a sound communication skill which
+              allows me to communicate properly among my peers.
+            </p>
+          </div>
+          <div>
+            <img src="/images/IMG_9568.jpg" alt="" width="500" />
+          </div>
+        </div>
+        <h4 id="hed3">Some of my favorite songs</h4>
+        <div class="abt2">
+          <div id="intro2">
+            <p>
+              i love listening to songs and watching movies and animes for my
+              leasure and i have a beautiful girlfriend too. below are some of
+              my favourite songs and movies and a picture of my girlfriend
+            </p>
+          </div>
+          <div>
+            <audio controls>
+              <source
+                src="/audio/Mavins, Rema & Boy Spyce - Won Da Mo (feat. Crayon, Bayanni, Magixx, LADIPOE, Ayra Starr & Johnny Drille) (NetNaija.com).mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <audio controls>
+              <source
+                src="/audio/Burna Boy - Common Person.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </div>
+        </div>
+        <div>
+          <h4 id="hed4">Some of my favorite movies and animes</h4>
+          <div id="vid">
+            <iframe
+              width="500"
+              height="400"
+              src="https://www.youtube.com/embed/vd5g-drkfDw"
+              title="Top 10 Most Anticipated NEW Anime of Spring 2023"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
 
-        <img src="/images/IMG_9568.jpg" alt="" width="500" />
-
-        <p>
-          i love listening to songs and watching movies and animes for my
-          leasure and i have a beautiful girlfriend too. below are some of my
-          favourite songs and movies and a picture of my girlfriend
-        </p>
-
-        <h4>Some of my favorite songs</h4>
-        <audio controls>
-          <source
-            src="/audio/Mavins, Rema & Boy Spyce - Won Da Mo (feat. Crayon, Bayanni, Magixx, LADIPOE, Ayra Starr & Johnny Drille) (NetNaija.com).mp3"
-            type="audio/mpeg"
-          />
-        </audio>
-
-        <audio controls>
-          <source
-            src="/audio/Burna Boy - Common Person.mp3"
-            type="audio/mpeg"
-          />
-        </audio>
-
-        <h4>Some of my favorite movies and animes</h4>
-
-        <iframe
-          width="500"
-          height="400"
-          src="https://www.youtube.com/embed/vd5g-drkfDw"
-          title="Top 10 Most Anticipated NEW Anime of Spring 2023"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <iframe
-          width="500"
-          height="400"
-          src="https://www.youtube.com/embed/0iMT5_Rm3Es"
-          title="Top 10 Best Action Movies On Netflix, Amazon Prime, Apple tv+ | Best Action Movies To Watch In 2023"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h4>My beautiful girlfriend</h4>
-        <img src="/images/IMG-20230206-WA0005.jpg" alt="" width="300" />
+            <iframe
+              width="500"
+              height="400"
+              src="https://www.youtube.com/embed/0iMT5_Rm3Es"
+              title="Top 10 Best Action Movies On Netflix, Amazon Prime, Apple tv+ | Best Action Movies To Watch In 2023"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <h4 id="hed2">My beautiful girlfriend</h4>
+        <div id="intro3">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, totam.
+            </p>
+          </div>
+          <div id="img">
+            <img id="img1" src="/images/IMG-20230206-WA0005.jpg" alt="" width="300" />
+          </div>
+        </div>
       </section>
 
       <section id="work">
