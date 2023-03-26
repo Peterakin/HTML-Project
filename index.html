@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>HTML-Project</title>
   </head>
   <body>
     <header>
-      <nav>
-        <img
+      <img
           src="/images/download (1).png"
           alt="portfolio logo"
           id="brand-logo"
         />
-        <ul>
+      <nav>
+        <ul id="nav">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
@@ -23,13 +24,12 @@
         </ul>
       </nav>
     </header>
-
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
+        <div class="about">
           <div>
-            <p>
+            <p id="rep">
               My name is Peter Akinlosotu and I’ve been crazy about programming.
               I continue to learn and improve on myself. Am a very hard working
               student, very organized with a sound communication skill which
@@ -44,36 +44,38 @@
 
       <section id="work">
         <h2>My Work</h2>
+       <div class="work">
         <div>
-          <p>
+          <p id="rep">
             Am not currently working as i am a student currently in 300 level
             studying Computer Science in anchor university.
           </p>
         </div>
         <div>
-          <img src="" alt="" />
+          <img id="img3" src="/images/istockphoto-1185622398-612x612.jpg" alt="" />
         </div>
+       </div>
       </section>
 
       <section id="resume">
         <h2>Resume</h2>
-        <div>
+        <div class="resume">
           <div>
-            <p>
+            <p id="rep">
               I am a fullstack wed developer using javascript and am also
               studying computer science
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div id="img3d">
+            <img id="img3" src="/images/web-developer-3.jpg" alt="" />
           </div>
         </div>
       </section>
 
       <section id="contact">
         <h2>Contact</h2>
-        <div>
-          <div>
+        <div class="contact">
+          <div id="intro3">
             <p>contact me by mail at: peterakinlosotu@gmail.com</p>
             <p>Phone number: 07026516154</p>
           </div>

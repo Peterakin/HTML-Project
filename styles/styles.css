@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    background: rgb(31,34,53);
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+#brand-logo{
+    height: auto;
+    width: 80px;
+}
+
+#nav{
+    display: flex;
+    list-style: none;
+    padding-left: 55%;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+#nav a{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    padding: 40px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nav a:hover{
+    color: rgb(255,74,87);
+}
+
+h2{
+    text-align: center;
+}
+
+#about{
+    background: rgb(36,38,53);
+    color: white;
+    padding-top: 10%;
+}
+
+.about{
+    display: flex;
+}
+
+#work{
+    background: rgb(31,34,53);
+    color: white;
+}
+
+.work{
+    display: flex;
+}
+
+#resume{
+    background: rgb(36,38,53);
+    color: white;
+}
+
+.resume{
+    display: flex;
+}
+
+#rep{
+    padding-left: 200px;
+}
+
+#img3d{
+    padding-left: 30%;
+}
+
+#img3{
+    height: auto;
+    width: 80%;
+}
+
+#contact{
+    background: rgb(31,34,53);
+    color: white;
+}
+
+#intro3{
+    padding-left: 200px;
+}
+
+form{
+    padding-left: 150%;
+}
+
+.contact{
+    display: flex;
+}
+
+footer{
+    background: grey;
+    text-align: center;
+    padding: 50px;
+}
